@@ -45,6 +45,6 @@ io.on("connection", (socket) => {
   });
 });
 const PORT = process.env.PORT;
-// server.listen(443, (err) => console.log("lisening and running on "));
-app.listen(PORT || 4000);
+// server.listen(PORT, (err) => console.log("lisening and running on "));
+app.listen(PORT || 443);
 (err) => console.log(`lisening and running on Http://localhost:${PORT}`);
